@@ -117,7 +117,7 @@ export default function Home() {
                   Camp Dates
                 </h3>
                 <p className="text-lg text-gray-700 font-medium">
-                  December 22, 23, 26, 29, 30
+                  December 23, 26, 29, 30, 31
                 </p>
                 <p className="text-sm text-gray-600 mt-2">5 days of hands-on learning</p>
               </div>
