@@ -56,7 +56,7 @@ export default function LoadingScreen() {
 
         {/* BestBrains Text */}
         <h1 className="text-5xl md:text-6xl font-bold text-winter-darkBlue mb-4">
-          BestBrains
+          Best Brains Phoenix North
         </h1>
         
         {/* Winter Camp Text */}

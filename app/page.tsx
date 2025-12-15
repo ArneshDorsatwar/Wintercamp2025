@@ -93,7 +93,7 @@ export default function Home() {
           </HeroAnimation>
           <HeroAnimation delay={300}>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              BestBrains Winter Camp introduces students to artificial intelligence, 
+              Best Brains Winter Camp introduces students to artificial intelligence, 
               machine learning, coding, and creative AI tools in a fun, hands-on environment. 
               Over five days, students explore technology, creativity, and responsible AI use.
             </p>
