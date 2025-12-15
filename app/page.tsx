@@ -83,7 +83,7 @@ export default function Home() {
           </HeroAnimation>
           <HeroAnimation delay={100}>
             <h1 className="text-5xl md:text-6xl font-bold text-winter-darkBlue mb-4">
-              BestBrains Winter Camp
+              Best Brains Phoenix North Winter Camp
             </h1>
           </HeroAnimation>
           <HeroAnimation delay={200}>
@@ -148,8 +148,23 @@ export default function Home() {
                   Location
                 </h3>
                 <p className="text-gray-700 font-medium mb-1">Best Brains Phoenix North</p>
-                <p className="text-gray-600">20350 N Cave Creek Rd #100</p>
-                <p className="text-gray-600">Phoenix, AZ 85050</p>
+                <a
+                  href="https://maps.google.com/?q=20350+N+Cave+Creek+Rd+%23100,+Phoenix,+AZ+85050"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-gray-600 hover:text-winter-darkBlue hover:underline transition-colors"
+                >
+                  <p>20350 N Cave Creek Rd #100</p>
+                  <p>Phoenix, AZ 85050</p>
+                </a>
+                <a
+                  href="https://maps.google.com/?q=20350+N+Cave+Creek+Rd+%23100,+Phoenix,+AZ+85050"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-3 px-4 py-2 bg-winter-darkBlue text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                >
+                  🗺️ Get Directions
+                </a>
               </div>
 
               <div className="bg-winter-gray rounded-lg p-6">
@@ -311,7 +326,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-winter-darkBlue text-white py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">BestBrains Winter Camp</h3>
+          <h3 className="text-2xl font-bold mb-4">Best Brains Winter Camp</h3>
           <p className="text-winter-lightBlue mb-2">Winter 2025</p>
           <p className="text-lg italic mt-6 text-winter-blue">
             Learning today. Creating tomorrow.
