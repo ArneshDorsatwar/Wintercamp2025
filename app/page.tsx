@@ -6,47 +6,47 @@ import HeroAnimation from '@/components/HeroAnimation'
 // Schedule data for each day
 const day1Schedule = [
   { time: '9:00 – 9:20', activity: 'Morning Yoga & Welcome' },
-  { time: '9:20 – 10:50', activity: 'Introduction to Machine Learning' },
+  { time: '9:20 – 10:30', activity: 'Introduction to Machine Learning' },
+  { time: '10:30 – 11:00', activity: 'Break & Snacks' },
   { time: '11:00 – 12:00', activity: 'Lunch Break' },
-  { time: '12:00 – 1:30', activity: 'Hands-on ML Model Training' },
-  { time: '1:30 – 2:00', activity: 'Break & Snacks' },
-  { time: '2:00 – 3:30', activity: 'Connecting ML to Web Projects' },
+  { time: '12:00 – 1:15', activity: 'Hands-on ML Model Training' },
+  { time: '1:15 – 2:00', activity: 'Connecting ML to Web Projects' },
 ]
 
 const day2Schedule = [
   { time: '9:00 – 9:20', activity: 'Morning Yoga' },
-  { time: '9:20 – 10:50', activity: 'Coding Basics & AI Assistant and the basics of Prompt Engineering' },
+  { time: '9:20 – 10:30', activity: 'Coding Basics & AI Assistant and the basics of Prompt Engineering' },
+  { time: '10:30 – 11:00', activity: 'Break & Snacks' },
   { time: '11:00 – 12:00', activity: 'Lunch Break' },
-  { time: '12:00 – 1:30', activity: 'Building Interactive Games with Cursor and Claude Code' },
-  { time: '1:30 – 2:00', activity: 'Break & Snacks' },
-  { time: '2:00 – 3:30', activity: 'Creating Web-Based Games with Cursor and Claude Code' },
+  { time: '12:00 – 1:15', activity: 'Building Interactive Games with Cursor and Claude Code' },
+  { time: '1:15 – 2:00', activity: 'Creating Web-Based Games with Cursor and Claude Code' },
 ]
 
 const day3Schedule = [
   { time: '9:00 – 9:20', activity: 'Morning Yoga' },
-  { time: '9:20 – 10:50', activity: 'HTML & CSS Fundamentals & Hosting with Vercel and Netlify' },
+  { time: '9:20 – 10:30', activity: 'HTML & CSS Fundamentals & Hosting with Vercel and Netlify' },
+  { time: '10:30 – 11:00', activity: 'Break & Snacks' },
   { time: '11:00 – 12:00', activity: 'Lunch Break' },
-  { time: '12:00 – 1:30', activity: 'Building Personal Homepages with ai tools like Cursor Browerser and Lovable' },
-  { time: '1:30 – 2:00', activity: 'Break & Snacks' },
-  { time: '2:00 – 3:30', activity: 'Creating Multi-Page Websites with ai tools like Cursor Browerser and Lovable' },
+  { time: '12:00 – 1:15', activity: 'Building Personal Homepages with ai tools like Cursor Browerser and Lovable' },
+  { time: '1:15 – 2:00', activity: 'Creating Multi-Page Websites with ai tools like Cursor Browerser and Lovable' },
 ]
 
 const day4Schedule = [
   { time: '9:00 – 9:20', activity: 'Morning Yoga' },
-  { time: '9:20 – 10:50', activity: 'AI Video Creation with Nano Banana & Sora' },
+  { time: '9:20 – 10:30', activity: 'AI Video Creation with Nano Banana & Sora' },
+  { time: '10:30 – 11:00', activity: 'Break & Snacks' },
   { time: '11:00 – 12:00', activity: 'Lunch Break' },
-  { time: '12:00 – 1:30', activity: 'Storyboarding & Prompt Writing for Videos' },
-  { time: '1:30 – 2:00', activity: 'Break & Snacks' },
-  { time: '2:00 – 3:30', activity: 'Building your own story with Nano Banana and Sora' },
+  { time: '12:00 – 1:15', activity: 'Storyboarding & Prompt Writing for Videos' },
+  { time: '1:15 – 2:00', activity: 'Building your own story with Nano Banana and Sora' },
 ]
 
 const day5Schedule = [
   { time: '9:00 – 9:20', activity: 'Morning Yoga' },
-  { time: '9:20 – 10:50', activity: 'Responsible AI Discussions' },
+  { time: '9:20 – 10:30', activity: 'Responsible AI Discussions' },
+  { time: '10:30 – 11:00', activity: 'Break & Snacks' },
   { time: '11:00 – 12:00', activity: 'Lunch Break' },
-  { time: '12:00 – 1:30', activity: 'Final Project Creation' },
-  { time: '1:30 – 2:00', activity: 'Break & Snacks' },
-  { time: '2:00 – 3:30', activity: 'Project Showcase & Celebration' },
+  { time: '12:00 – 1:15', activity: 'Final Project Creation' },
+  { time: '1:15 – 2:00', activity: 'Project Showcase & Celebration' },
 ]
 
 export default function Home() {
